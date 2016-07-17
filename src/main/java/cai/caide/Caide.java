@@ -86,7 +86,7 @@ public class Caide extends ApplicationAdapter {
 				System.out.println(s.getLog());
 			} else {
 				shader = s;
-				shader.pedantic = true;
+				shader.pedantic = false;
 				shader.setUniformf("u_resolutionY", 1f);
 				shader.setUniformf("u_scale", 1);
 				batch.setShader(shader);
