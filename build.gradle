@@ -13,6 +13,9 @@ allprojects() {
     }
     dependencies {
     	compile "com.badlogicgames.gdx:gdx:$gdx_version"
+        compile "com.badlogicgames.gdx:gdx-platform:$gdx_version:natives-desktop"
     	compile "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdx_version"
+        compile "com.badlogicgames.gdx:gdx-freetype:$gdx_version"
+        compile "com.badlogicgames.gdx:gdx-freetype-platform:$gdx_version:natives-desktop"
     }    
 }
